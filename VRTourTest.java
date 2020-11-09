@@ -23,7 +23,7 @@ public class VRTourTest
 	@Test
 	public void test()
 	{
-		System.out.println("Correct Test Case");
+		System.out.println("Test");
 		VRTour schedule = new VRTour();
 		assertEquals("Schedule Test: ", "Appointment scheduled: UTD at 3:00 PM on June 14 2021.", schedule.scheduleTour("3:00 PM", "UTD", "June 14 2021"));
 	}
